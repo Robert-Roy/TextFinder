@@ -22,11 +22,11 @@ public class TextFinder {
         String suffix = "";
         String input = "";
         try {
-            System.out.print("Leading String");
+            System.out.print("Leading String:");
             prefix = br.readLine(); // text BEFORE every instance of desired text
-            System.out.print("Trailing String");
+            System.out.print("Trailing String:");
             suffix = br.readLine(); // text AFTER every instance of desired text
-            System.out.print("Enter String");
+            System.out.print("Enter String:");
             input = br.readLine(); // text to search
         } catch (IOException ex) {
             System.out.println("This program has encountered an error.");
@@ -39,7 +39,7 @@ public class TextFinder {
             if (a == -1 || b == -1) {
                 break; // leave loop if can't find instance of at least one
             }
-            String get = input.substring(a + prefix.length(), b);
+            String get = input.substring(a + prefix.length(), b); // remove addressed input from input
             try {
                 input = br.readLine(); // get user input
             } catch (IOException ex) {
