@@ -2,21 +2,25 @@
 
 This program gets string data from between two strings. For example:
 
-Leading String: 
+Leading String:
+```
 START
-
-Trailing String: 
+```
+Trailing String:
+```
 FINISH
-
-Enter String: 
+```
+Enter String:
+```
 STARTgetthistextFINISH
 STARTgetthis2FINISH
 STARTandthisFINISH
-
+```
 Output: 
+```
 getthistext
 getthis2
 andthis
-
+```
 
 To run, clone the repo, then run TextFinder.java. Follow the console prompts.
