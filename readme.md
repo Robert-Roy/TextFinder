@@ -3,15 +3,15 @@
 This program gets string data from between two strings. For example:
 
 Leading String: 
-<START>
+START
 
 Trailing String: 
-<FINISH>
+FINISH
 
 Enter String: 
-<START>getthistext<FINISH>
-<START>getthis2<FINISH>
-<START>andthis<FINISH>
+STARTgetthistextFINISH
+STARTgetthis2FINISH
+STARTandthisFINISH
 
 Output: 
 getthistext
